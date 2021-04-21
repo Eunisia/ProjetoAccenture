@@ -1,0 +1,16 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class Metodos {
+
+	WebDriver driver;
+
+	public void preencherFormulario() {
+
+		System.setProperty("Site", "Chrome");
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package elementos;
+
+import org.openqa.selenium.By;
+
+public class Elementos {
+
+	private By make = By.id("make");
+	private By model = By.id("model");
+	private By cylindercapacity = By.id("cylindercapacity");
+	private By nextenterinsurantdata = By.id("nextenterinsurantdata");
+	
+	
+	public By getMake() {
+		return make;
+	}
+	public By getModel() {
+		return model;
+	}
+	public By getCylindercapacity() {
+		return cylindercapacity;
+	}
+	public By getNextenterinsurantdata() {
+		return nextenterinsurantdata;
+	}
+	
+
+	
+
+}

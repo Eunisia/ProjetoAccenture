@@ -1,0 +1,7 @@
+package elementos;
+
+import elementos;
+
+public class Elementos extends elementos {
+
+}

@@ -1,0 +1,24 @@
+package pages;
+
+import elementos.Elementos;
+
+public class Formulario {
+
+	Metodos metodos = new Metodos();
+	Elementos elemento = new Elementos();
+
+	public void preencherFormulario(String make, String model, String cylindercapacity) {
+
+		metodos.escrever(elemento.getMake(), make);
+		metodos.escrever(elemento.getModel(), model);
+		metodos.escrever(elemento.getCylindercapacity(), cylindercapacity);
+		metodos.clicar(elemento.getNextenterinsurantdata());
+		metodos.escrever(elemento.getFirstname(), firstname);
+		metodos.escrever(elemento.getLastname(), getLastname);
+		metodos.clicar(elemento.getNextenterproductdata());
+		metodos.clicar(elemento.getNexttselectpriceoption());
+		
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package pages;
+
+public class Formulario {
+	
+	public void preencherFormulario(String make, String model)
+
+}
